@@ -30,7 +30,7 @@ localhost:3000
 ```
 
 ### References
-* https://videojs.com/ - library
+* https://videojs.com/ - library and plugins
 * https://www.w3.org/WAI/media/av/ - research ideas
 * https://subtitletools.com - subtitles/captioning
 * https://fonts.google.com/ - font
