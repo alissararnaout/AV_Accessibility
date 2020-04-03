@@ -2,15 +2,29 @@
 h1, h2, h3 {
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
-
 }
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 75px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
 
 .video-js { 
     margin: 0 auto;
 }
 
+/* video controls */
 .video-js {
-    font-size: 15px;
+    font-size: 18px;
     color: white;
 }
 
@@ -28,7 +42,7 @@ button {
     margin-bottom: 50px;
     border-width: 5px;
     border-color: black;
-    border-width: 5px;
+    border-radius: 10px;
     background-color: yellow;
 
 }
