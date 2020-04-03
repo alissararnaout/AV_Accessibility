@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://vjs.zencdn.net/7.7.5/video-js.css" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+
+        
+        <link rel="stylesheet" href="/css/main.css">
+        <title>A/V Accessibility</title>
+              
+      </head>
+      
+      <body>
+        <header><h1>A/V Accessibility Research</h1></header>
+
+    <div id="movie">
+        <h2>Rear Window (1954)</h2>
+        <video
+          id="my-video"
+          class="video-js vjs-big-play-centered"
+          controls
+          preload="auto"
+          width="854"
+          height="480"
+          poster=""
+          data-setup="{}"
+        >
+          <!-- video link -->
+          <source src="/video/8.mp4" type="video/mp4"/>
+
+          <!-- Closed captioning-->
+          <track kind="captions" src="/captions/RearWindow_english.vtt" srclang="en" label="English" default>
+          <track kind="captions" src="/captions/RearWindow_french.vtt" srclang="fr" label="French" default>
+          <track kind="captions" src="/captions/RearWindow_spanish.vtt" srclang="es" label="Spanish" default>
+          <track kind="captions" src="/captions/RearWindow_arabic.vtt" srclang="ar" label="Arabic" default>
+
+          
+            <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading to a
+            web browser that
+          </p>
+        </video>
+
+        <button type="button" class="script"><a href="/scripts/RearWindow.html">Text Script</a></button>
+
+    </div>
+
+
+    <div id="show">
+      <h2>Sabrina, The Teenage Witch (1996)</h2>
+      <h3>Season 1, Episode 1: Pilot</h3>
+      <video
+        id="my-video1"
+        class="video-js vjs-big-play-centered"
+        controls
+        preload="auto"
+        width="854"
+        height="480"
+        poster=""
+        data-setup="{}"
+      >
+        <!-- video link -->
+        <source src="/video/8.mp4" type="video/mp4"/>
+
+        <!-- Closed captioning-->
+        <track kind="captions" src="/captions/Sabrina_S01E01_english.vtt" srclang="en" label="English" default>
+        <track kind="captions" src="/captions/Sabrina_S01E01_bulgarian.vtt" srclang="bg" label="Bulgarian" default>
+      
+
+        
+          <p class="vjs-no-js">
+          To view this video please enable JavaScript, and consider upgrading to a
+          web browser that
+        </p>
+      </video>
+
+      <button type="button" class="script"><a href="/scripts/Sabrina_S01E01.html">Text Script</a></button>
+  </div>
+
+  <div id="song">
+    <h2>Abba - Dancing Queen</h2>
+
+    <video
+      id="my-video"
+      class="video-js vjs-big-play-centered"
+      controls
+      preload="auto"
+      width="854"
+      height="480"
+      poster="/audio/album-cover.jpeg"
+      data-setup="{}"
+    >
+      <!-- video link -->
+      <source src="/audio/ABBA_DancingQueen.mp3" type="video/mp4"/>
+
+      <!-- Closed captioning-->
+      <track kind="captions" src="/captions/DancingQueen_lyrics.vtt" srclang="en" label="Lyrics" default>
+    
+
+      
+        <p class="vjs-no-js">
+        To view this video please enable JavaScript, and consider upgrading to a
+        web browser that
+        <a href="https://videojs.com/html5-video-support/" target="_blank"
+          >supports HTML5 video</a
+        >
+      </p>
+    </video>
+
+    <button type="button" class="script"><a href="/scripts/DancingQueen.html">Lyrics</a></button>
+
+</div>
+
+  
+
+
+      
+        <script src="https://vjs.zencdn.net/7.7.5/video.js"></script>
+        <script src="path/to/video.js/dist/video.js"></script>
+        <script src="//cdn.sc.gl/videojs-hotkeys/0.2/videojs.hotkeys.min.js"></script>
+        <script src="js/main.js"></script>
+      </body>
+</html>
